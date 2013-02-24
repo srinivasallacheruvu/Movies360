@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout android:id="@+id/relativeLayout1" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android"
+    
+      android:background="@drawable/bg" >
+      <TextView android:id="@+id/textView2" 
+ 			android:layout_width="fill_parent" 
+ 			android:layout_height="wrap_content" 
+ 			android:gravity="center_horizontal"
+ 			android:text="Home"
+ 			 android:textColor="#3A0670"
+ 			 android:background="@drawable/bar"
+ 			android:textSize="25dip"
+ 			android:textStyle="bold"
+ 			>
+ </TextView>
+  
+   <View android:id="@+id/view1" 
+   		android:layout_alignParentLeft="true" 
+   		android:layout_width="fill_parent" 
+   		android:layout_height="2dip"
+   		android:background="#FFFFFF"
+   		android:layout_below="@id/textView2"
+   		></View>
+  <!--  android:padding="10dp"  -->
+    <GridView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:id="@+id/gv"
+	 android:paddingLeft="10dip"
+  android:verticalSpacing="1dp" 
+  android:horizontalSpacing="1dp" 
+  android:numColumns="auto_fit" 
+  android:columnWidth="78dip" 
+  android:stretchMode="spacingWidth" 
+ 	android:layout_weight="1.0"
+  android:gravity="center" 
+  android:smoothScrollbar="true"
+ android:layout_below="@id/view1"
+ android:layout_marginTop="30dip"
+
+     
+      
+  >
+</GridView>
+    
+    
+    </RelativeLayout>
+

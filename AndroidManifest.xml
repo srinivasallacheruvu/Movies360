@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.movie360.ui"
+      android:versionCode="1"
+      android:versionName="1.0">
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+
+    <application android:icon="@drawable/bg" android:label="@string/app_name">
+        <activity android:name=".SplashScreen"
+                  android:label="@string/app_name"
+                  android:configChanges="orientation|keyboardHidden"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+                  >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    <activity android:name=".MoviesList"      android:configChanges="orientation|keyboardHidden"    android:theme="@android:style/Theme.NoTitleBar.Fullscreen"    />
+	<activity android:name=".Home"             android:theme="@android:style/Theme.NoTitleBar.Fullscreen"   />
+ 	 <activity android:name=".AboutMovie"     android:configChanges="orientation|keyboardHidden"    android:theme="@android:style/Theme.NoTitleBar.Fullscreen"    />
+	<activity android:name=".Meet_The_Star"   android:configChanges="orientation|keyboardHidden"    android:theme="@android:style/Theme.NoTitleBar.Fullscreen"    />
+	<activity android:name=".Music"      	  android:configChanges="orientation|keyboardHidden"    android:theme="@android:style/Theme.NoTitleBar.Fullscreen"    />
+	<activity android:name=".Images"            android:configChanges="orientation|keyboardHidden"     android:theme="@android:style/Theme.NoTitleBar.Fullscreen"   />
+ 	<activity android:name=".Videos"            android:configChanges="orientation|keyboardHidden"    android:theme="@android:style/Theme.NoTitleBar.Fullscreen"    />
+	<activity android:name=".Games_And_Contest"            android:configChanges="orientation|keyboardHidden"     android:theme="@android:style/Theme.NoTitleBar.Fullscreen"   />
+ 	<activity android:name=".Event_And_News"      android:configChanges="orientation|keyboardHidden"    android:theme="@android:style/Theme.NoTitleBar.Fullscreen"    />
+	<activity android:name=".MovieRelease"            android:configChanges="orientation|keyboardHidden"     android:theme="@android:style/Theme.NoTitleBar.Fullscreen"   />
+	<activity android:name=".AboutMovie_Detalis"            android:configChanges="orientation|keyboardHidden"     android:theme="@android:style/Theme.NoTitleBar.Fullscreen"   />
+	<activity android:name=".Cast_And_Crew"            android:configChanges="orientation|keyboardHidden"     android:theme="@android:style/Theme.NoTitleBar.Fullscreen"   />
+ 	<activity android:name=".Trailers"            android:configChanges="orientation|keyboardHidden"     android:theme="@android:style/Theme.NoTitleBar.Fullscreen"   />
+	<activity android:name=".MovieCharacter"            android:configChanges="orientation|keyboardHidden"     android:theme="@android:style/Theme.NoTitleBar.Fullscreen"   />
+	<activity android:name=".ShootingLocations"     android:configChanges="orientation|keyboardHidden"     android:theme="@android:style/Theme.NoTitleBar.Fullscreen"   />
+	<activity android:name=".StoryLine"     android:configChanges="orientation|keyboardHidden"     android:theme="@android:style/Theme.NoTitleBar.Fullscreen"   />
+	<activity android:name=".DialySMSUpdates"     android:configChanges="orientation|keyboardHidden"     android:theme="@android:style/Theme.NoTitleBar.Fullscreen"   />  
+ 	<activity android:name=".Meet_The_Movies_Details"     android:configChanges="orientation|keyboardHidden"     android:theme="@android:style/Theme.NoTitleBar.Fullscreen"   />  
+ 	<activity android:name=".Meet_The_Star_Intro"     android:configChanges="orientation|keyboardHidden"     android:theme="@android:style/Theme.NoTitleBar.Fullscreen"   /> 
+ 	<activity android:name=".Meet_The_Star_Intro"     android:configChanges="orientation|keyboardHidden"     android:theme="@android:style/Theme.NoTitleBar.Fullscreen"   /> 
+ 	<activity android:name=".Meet_The_Star_Pic"     android:configChanges="orientation|keyboardHidden"     android:theme="@android:style/Theme.NoTitleBar.Fullscreen"   /> 
+ 	<activity android:name=".Meet_The_Star_Videos"     android:configChanges="orientation|keyboardHidden"     android:theme="@android:style/Theme.NoTitleBar.Fullscreen"   /> 
+ 	<activity android:name=".VideoPlayer"     android:configChanges="orientation|keyboardHidden"     android:theme="@android:style/Theme.NoTitleBar.Fullscreen"   />
+  </application>
+</manifest>

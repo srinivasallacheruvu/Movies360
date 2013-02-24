@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@drawable/bg" 
+  android:id="@+id/relativeLayout1233"
+  >
+    <TextView  android:layout_height="wrap_content" 
+  			 android:layout_alignParentLeft="true"
+  			 android:id="@+id/textView1" 
+  			 android:text=" Synopsis" 
+  			 android:gravity="center_horizontal"
+  			 android:textSize="20dip"
+  			 android:layout_width="fill_parent"
+  			 android:textColor="#3A0670"
+ 			 android:background="@drawable/bar"
+  			 ></TextView>
+  
+  
+   <View android:id="@+id/view1" 
+   		android:layout_alignParentLeft="true" 
+   		android:layout_width="fill_parent" 
+   		android:layout_height="2dip"
+   		android:background="#FFFFFF"
+   		android:layout_below="@id/textView1"
+   		></View>
+ 
+   <ScrollView android:id="@+id/scrollView1" android:layout_width="match_parent" android:layout_height="wrap_content">
+       <LinearLayout android:layout_width="match_parent" android:id="@+id/linearLayout1" android:layout_height="match_parent">
+       
+        <TextView  android:layout_height="wrap_content" 
+  			 android:layout_alignParentLeft="true"
+  			 android:id="@+id/tv1" 
+  			 android:layout_width="wrap_content"
+  			 android:textSize="15dip"
+  			>
+   </TextView>
+       
+       </LinearLayout>
+   </ScrollView>
+  
+    
+    
+  
+</RelativeLayout>

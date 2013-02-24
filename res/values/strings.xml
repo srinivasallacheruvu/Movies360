@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, SplashScreen!</string>
+    <string name="app_name">Movie360</string>
+    <string name="intialRequest">http://kj.ayansys.com:8080/apps/m360Movies?os=Android</string>
+    <string name="sectionRequest">http://kj.ayansys.com:8080/apps/m360Sections?movieId=</string>
+</resources>

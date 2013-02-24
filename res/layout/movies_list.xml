@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+   android:background="@drawable/bg"
+  >
+ <TextView android:id="@+id/textView2" 
+ 			android:layout_width="fill_parent" 
+ 			android:layout_height="wrap_content" 
+ 			android:gravity="center_horizontal"
+ 			android:text="Movie List"
+ 			android:textSize="25dip"
+ 			android:textStyle="bold"
+ 			android:textColor="#3A0670"
+ 			android:background="@drawable/bar"
+ 			>
+ </TextView>
+  
+   <View android:id="@+id/view1" 
+   		android:layout_alignParentLeft="true" 
+   		android:layout_width="fill_parent" 
+   		android:layout_height="2dip"
+   		android:background="#FFFFFF"
+   		android:layout_below="@id/textView2"
+   		></View>
+  
+  
+  
+ <com.movie360.ui.CoverFlow 
+ 	android:id="@+id/coverflow"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+	android:layout_centerVertical="true"
+  >
+ </com.movie360.ui.CoverFlow>
+ 
+ <TextView android:layout_alignParentBottom="true" 
+ 			android:layout_height="wrap_content" 
+ 			android:id="@+id/textView1" 
+ 			android:text=" " 
+ 			android:gravity="center_horizontal"
+ 			android:layout_width="fill_parent"
+ 			android:layout_marginBottom="30dip"
+ 			>
+ 		
+ </TextView>
+  
+</RelativeLayout>
